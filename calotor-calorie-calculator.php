@@ -4,7 +4,7 @@ Plugin Name: Calotor Calorie Counter
 Plugin URI: http://www.calotor.com
 Description: Figure out your basal metabolic rate
 Author: Lucian Apostol
-Version: 0.1
+Version: 0.2
 Author URI: http://www.lucianapostol.com
 */
 
@@ -59,6 +59,7 @@ function widgetCalotor($args) {
 function calotorInit()
 {
   register_sidebar_widget(__('Calotor'), 'widgetCalotor');     
+  add_shortcode( 'calotor', 'calotor' );
 }
 add_action("plugins_loaded", "calotorInit");
 
