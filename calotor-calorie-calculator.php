@@ -39,9 +39,9 @@ function calotor()
 	</script> 
 
 	<form id="calotorform" onsubmit="return bmr_calculator(this);" method="post">
-		Weight: <input type="text" name="bmr_weight" id="bmi_weight" size="9"; /> lbs.<br>
-		Age: <input type="text" name="bmr_age" id="bmr_age" size="9"; /> years <br>
-		<br><input type="submit" name="submit" id="submit" value="Calculate" /><br>
+		Weight: <input type="text" name="bmr_weight" id="bmi_weight" size="9"; /> lbs.<br />
+		Age: <input type="text" name="bmr_age" id="bmr_age" size="9"; /> years <br />
+		<br><input type="submit" name="submit" id="submit" value="Calculate" /><br />
 		<div id="bmr_result"></div>
 	</form>
 
