@@ -3,14 +3,14 @@ Contributors: Lucian Apostol
 Donate link: http://www.calotor.com
 Tags: health, calories, weight loss, tools, widgets, calculator
 Requires at least: 2.5.2
-Tested up to: 3.3.2
-Stable tag: 1.0
+Tested up to: 3.9.1
+Stable tag: 1.1
 
 Provide your visitors the ability to figure out their basal metabolic rate, based on their age, sex and weight.
 
 == Description ==
 
-You can add the plugin as a widget, dragging and droppint it from the wordpress administration panel, Appearance->Widgets section, or with a short tag directly in your blog posts or pages using the [calotor] shortcode.
+You can add the plugin as a widget, dragging and dropping it from the Wordpress administration panel, Appearance->Widgets section, or with a short tag directly in your blog posts or pages using the [calotor] shortcode.
 
 You can also add it directly into your template files.
 
@@ -34,9 +34,12 @@ The blog functionality will not be affected in any way.
 
 == Changelog ==
 
+= 1.1 =
+* The plugin has been tested with the latest version of wordpress 3.9.1
+
 = 1.0 =
 
-The plugin has been upgraded to support the latest version of Wordpress 3.3.2
+* The plugin has been upgraded to support the latest version of Wordpress 3.3.2
 
 = 0.1 =
 * This is the first version of the plugin. Any suggestions and feedback is highly appreciated.
