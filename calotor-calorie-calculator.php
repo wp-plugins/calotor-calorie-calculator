@@ -4,7 +4,7 @@ Plugin Name: Calotor Calorie Counter
 Plugin URI: http://www.calotor.com
 Description: Figure out your basal metabolic rate
 Author: Lucian Apostol
-Version: 1.1
+Version: 1.3
 Author URI: http://www.lucianapostol.com
 */
 
@@ -30,7 +30,7 @@ function calotor()
 				return false;
 			}
 			if (rvalue) {
-					document.getElementById("bmr_result").innerHTML = "Your BMR is: " + displaybmr;
+					document.getElementById("bmr_result").innerHTML = "You should eat " + displaybmr + " calories a day";
 			}
 
 
@@ -51,14 +51,14 @@ function calotor()
 function widgetCalotor($args) {
   extract($args);
   echo $before_widget;
-  echo $before_title;?>BMI calculator<?php echo $after_title;
+  echo $before_title;?>How many calories you should eat a day.<?php echo $after_title;
   calotor();
   echo $after_widget;
 }
 
 function calotorInit()
 {
-  register_sidebar_widget(__('Calotor'), 'widgetCalotor');     
+  register_sidebar_widget(__('Calotor Base Metabolic Rate'), 'widgetCalotor');     
   add_shortcode( 'calotor', 'calotor' );
 }
 add_action("plugins_loaded", "calotorInit");
