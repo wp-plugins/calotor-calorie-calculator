@@ -3,7 +3,7 @@ Contributors: Lucian Apostol
 Donate link: http://www.calotor.com
 Tags: health, calories, weight loss, tools, widgets, calculator
 Requires at least: 2.5.2
-Tested up to: 4.0.1
+Tested up to: 4.1.1
 Stable tag: 1.3
 
 Provide your visitors the ability to figure out their basal metabolic rate, based on their age, sex and weight.
